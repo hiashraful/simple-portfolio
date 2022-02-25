@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+}
+.orange-highlight{
+    color: orange;
+}
+#first-heading{
+    font-size: 45px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-radius: 5px;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+
+.top-banner{
+    background-image: url("../images/top-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.detail-message{
+    color: gray;
+}
+.success{
+    background-image: url("../images/exp-bg1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
