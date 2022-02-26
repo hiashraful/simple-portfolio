@@ -6,15 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
-h3{
-    font-size: 25px;
-}
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 .orange-highlight{
     color: orange;
 }
+
 #first-heading{
     font-size: 45px;
 }
@@ -28,27 +26,60 @@ h2{
 }
 .half-width{
     width: 40%;
-    float: left;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin-left: 5%;
-    padding-left: 5%;
+    padding-left: 3%;
+    justify-content: space-between;
 }
 .half-width img{
-    width: 80%;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
 .top-banner{
     background-image: url("../images/top-bg.png");
     background-repeat: no-repeat;
+    display: flex;
 }
 section{
     height: 500px;
 }
-.detail-message{
-    color: gray;
+p{
+    color: dimgray;
 }
 .success{
     background-image: url("../images/exp-bg1.png");
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+}
+.experience-area{
+    display: flex;
+    margin-top: 30px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#upwork-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#fiverr-box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: dimgray;
 }
